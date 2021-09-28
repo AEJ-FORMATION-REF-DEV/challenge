@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/*
 body{
     min-height: 100vh;
     display: flex;
@@ -12,21 +13,24 @@ body{
     justify-content: center;
     background-color: #fff !important;
 }
-
+*/
 /* section  contenu du fomulaire */
 .inscription-container{
     background-color: #fff;
-    box-shadow: 0 1px 1px #888888;
+    box-shadow: 0px 1px 1px #888888;  
+    margin-top: 100px;
     width: 100%;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
     border-radius: 5px;
+    margin-left: 250px;
 }
 
 
 /* section image du formulaire */
 .picture{
-    width: 50%;
+    width: 30%;
     background: url(image.png) no-repeat center;
     background-size: cover;
     border-end-end-radius: 5px;
@@ -37,26 +41,13 @@ body{
 input{
     caret-color: #FF5160;
 }
-/*************************    /
-.error { 
-    color: #ff0000;
-    font-weight: normal;
-   }
-.form-validate input{
-     margin-top: 10px;
-   }
-button{
-     display: block;
-     margin-top: 10px;
-   }
-/***************************          ******/
 
 /*   section oeil de mot de passe */
 .bi-eye-slash{
-    margin-left: -20px;
+    margin-left: -35px;
     margin-top: 14px;
     cursor: pointer;
-    font-size: 16;
+    font-size: 17;
     color: #888888;
 } 
 
@@ -65,18 +56,15 @@ button{
 .bi-person-square{
     background-color: white;
     color:#FF5160;
-    font-size: 50;
-   /* margin-bottom: 15px;*/
-   /* position: relative; */
-   /* padding-top: 0px; */
+    font-size: 50px;
     display: flex;
     margin-top: -70px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 /* section fomulaire et ses attributs */
 .inscription{
-   width: 50%;
+   width: 30%;
    padding: 50px 4%; 
 }
 
@@ -103,6 +91,38 @@ button{
     outline: none;
     padding: .8rem;
     background: none;
+
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #FF5160;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #FF5160;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #FF5160;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
   
   .form__input:focus {
