@@ -33,18 +33,30 @@ body{
     border-start-end-radius: 5px;
 }
 
-/* couleur du curseur dans input */
+/***********************    *********/
 input{
     caret-color: #FF5160;
 }
+/*************************    /
+.error { 
+    color: #ff0000;
+    font-weight: normal;
+   }
+.form-validate input{
+     margin-top: 10px;
+   }
+button{
+     display: block;
+     margin-top: 10px;
+   }
+/***************************          ******/
 
-/*  section oeil de mot de passe */
+/*   section oeil de mot de passe */
 .bi-eye-slash{
-    margin-left: -26px;
+    margin-left: -20px;
     margin-top: 14px;
-    padding-right: 0px;
     cursor: pointer;
-    font-size: 20;
+    font-size: 16;
     color: #888888;
 } 
 
@@ -54,6 +66,9 @@ input{
     background-color: white;
     color:#FF5160;
     font-size: 50;
+   /* margin-bottom: 15px;*/
+   /* position: relative; */
+   /* padding-top: 0px; */
     display: flex;
     margin-top: -70px;
     margin-bottom: 25px;
